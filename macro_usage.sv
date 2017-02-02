@@ -32,7 +32,7 @@ begin
   	`MACRO_VARIATIONS_1();				               		//Output => 5  6   C (Default Value of a,b,c is taken)
   	//`MACRO_VARIATIONS_1;				               		//THROWS ERROR
   	`MACRO_VARIATIONS_2(,1,);		              	                /*
-                                                                 		 *Output => 5  1   8 
+                                                                 		 *Output =>  5  1   8 
                                                                  		 *It's important to note that if the macro arguments doesn't have a default value,
                                                                  		 *the value needs to be specified as shown above where arguments a and c are not defined
                                                                  		 *and only b is defined
