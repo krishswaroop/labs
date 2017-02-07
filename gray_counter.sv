@@ -15,6 +15,8 @@ begin
   begin
     bcd_value <=  bcd_value + 1;
     assign gray_count = {bcd_value[3], bcd_value[3]^bcd_value[2], bcd_value[2]^bcd_value[1], bcd_value[1]^bcd_value[0]};
+    //adding display for reference
+    $display("%0t | BCD - %b -> GRAY - %b",$time,bcd_value,gray_count);
   end
 end
 endmodule
