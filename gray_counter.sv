@@ -1,7 +1,7 @@
 //4 bit gray_counter
 module gray_counter(input bit clk, 
                     input bit rst,
-                    output logic[3:0] bcd_value,
+                    output logic[3:0] bcd_value, 
                     output logic[3:0] gray_count);
 
 always@(posedge clk)
