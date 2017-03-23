@@ -130,7 +130,7 @@ module enum_work;
     //assigning out of range values
     //alphabets doesn't contain MOD
     alpha = alphabets'(MOD);
-    $display("updated alpha value - %d",alpha);
+    $display("updated alpha value - %d", alpha);
   end
 
 endmodule
